@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+.cache
+.git
+.github
+.parcel-cache
+node_modules
+dist
+tmp
+README.md
