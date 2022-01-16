@@ -7,7 +7,7 @@
                                                       /_/                       
 ```
 ## React Boilerplate - MKI
-Yes, there're probably a bazillion other repos doing more or less the same but this is _my_ very basic starting point to build a react app.
+Yes, there are probably a bazillion other repos doing more or less the same but this is _my_ very basic starting point to build a react app.
 
 ### Libraries
 - 🖥 [Axios HTTP](https://axios-http.com/docs/intro) - Promise based HTTP client
@@ -22,8 +22,34 @@ Yes, there're probably a bazillion other repos doing more or less the same but t
 - 📅 [date-fns](https://date-fns.org) - Modern date utility library
 - 📦 [Parcel](https://parceljs.org) - Build Tool
 
+### Project structure
+```
+src
+- images
+- libs
+- modules
+    - core
+        - components
+        - hooks
+        - routes
+        - stores
+    - NewModule
+        - components
+        - hooks
+        - routes
+        - stores
+```
+
 ### Installation
-...
+```
+npm install
+```
 
 ### Testing
 ...
+
+### Upgrade packages to latest
+```
+npx npm-check-updates -u
+npm install
+```
