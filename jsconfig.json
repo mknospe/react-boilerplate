@@ -3,12 +3,9 @@
     "baseUrl": ".",
     "paths": {
       "Core/*": ["src/modules/core/*"],
-      "Components/*": ["src/components/*"],
-      "Hooks/*": ["src/hooks/*"],
       "Images/*": ["src/img/*"],
       "Libs/*": ["src/libs/*"],
-      "Modules/*": ["src/modules/*"],
-      "Routes/*": ["src/routes/*"]
+      "Modules/*": ["src/modules/*"]
     },
     "moduleResolution": "node"
   },

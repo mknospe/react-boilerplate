@@ -62,11 +62,8 @@
   },
   "alias": {
     "Core": "./src/modules/core",
-    "Components": "./src/components",
     "Images": "./src/images",
     "Libs": "./src/libs",
-    "Modules": "./src/modules",
-    "Queries": "./src/hooks/queries",
-    "Routes": "./src/routes"
+    "Modules": "./src/modules"
   }
 }
