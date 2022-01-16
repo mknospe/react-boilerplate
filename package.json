@@ -13,12 +13,12 @@
     "react-hot-toast",
     "zustand"
   ],
-  "source": "index.html",
+  "source": "src/index.html",
   "scripts": {
-    "start": "NODE_ENV=development parcel --no-cache",
+    "start": "parcel --no-cache",
     "prebuild": "rimraf dist",
-    "build:dev": "npm run prebuild && NODE_ENV=development parcel build",
-    "build:production": "npm run prebuild && NODE_ENV=production parcel build --public-url ./"
+    "build:dev": "npm run prebuild && parcel build",
+    "build:production": "npm run prebuild && parcel build --public-url ./"
   },
   "repository": {
     "type": "git",

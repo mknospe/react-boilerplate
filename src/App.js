@@ -3,6 +3,6 @@ import './styles.css';
 
 export function App() {
   return (
-    <>Add routes here</>
+    <h1 className="text-2xl">Congrats, It works!</h1>
   );
 }
